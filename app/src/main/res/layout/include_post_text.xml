@@ -3,28 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingBottom="16dp"
-    android:paddingTop="16dp"
-    android:paddingRight="16dp">
+    android:layout_height="match_parent">
 
-    <include
-        android:id="@+id/postAuthorLayout"
-        layout="@layout/include_post_author"
+    <TextView
+        android:id="@+id/detail_title"
+        style="@style/TextAppearance.AppCompat.Medium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Title"/>
 
-    <include
-        android:id="@+id/postTextLayout"
-        layout="@layout/include_post_text"
+
+    <TextView
+        android:id="@+id/detail_contents"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/postAuthorLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_title"
+        tools:text="@string/lorem"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

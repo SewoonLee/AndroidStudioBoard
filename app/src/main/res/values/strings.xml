@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BoardTest</string>
     <string name="save">save</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, autem deserunt ducimus eaque, eligendi enim fugiat itaque odio odit, reiciendis suscipit voluptates. A ab aperiam commodi deserunt doloremque, esse expedita facere illum libero nam nisi non nulla placeat provident quod repellendus repudiandae rerum sint sit vitae. Eius molestias nemo sequi.</string>
 </resources>

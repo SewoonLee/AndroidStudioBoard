@@ -25,6 +25,7 @@ public class PostDetailActivity extends AppCompatActivity {
 
     private String id;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
