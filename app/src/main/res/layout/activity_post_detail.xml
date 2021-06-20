@@ -39,7 +39,7 @@
         <EditText
             android:id="@+id/field_comment_text"
             android:layout_width="0dp"
-            android:layout_weight="0.8"
+            android:layout_weight="0.7"
             android:layout_height="wrap_content"
             android:maxLines="1"
             android:hint="Write a comment..."/>
@@ -47,7 +47,7 @@
         <Button
             android:id="@+id/button_post_comment"
             android:layout_width="0dp"
-            android:layout_weight="0.2"
+            android:layout_weight="0.3"
             android:backgroundTint="@android:color/darker_gray"
             android:layout_height="wrap_content"
             android:text="Post"/>
